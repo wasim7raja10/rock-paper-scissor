@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 5% auto;
+}
+
+h1 {
+  font: optional;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.player button:hover {
+  background-color: aqua;
+}
+
+.exit {
+  display: none;
+}
